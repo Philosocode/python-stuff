@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Employee	employee.py	/^class Employee:$/;"	c
+Employee	sqlite_demo.py	/^from employee import Employee$/;"	i
+__init__	employee.py	/^    def __init__(self, first, last, pay):$/;"	m	class:Employee
+__repr__	employee.py	/^    def __repr__(self):$/;"	m	class:Employee	file:
+c	sqlite_demo.py	/^c = conn.cursor()$/;"	v
+conn	sqlite_demo.py	/^conn = sqlite3.connect(':memory:')$/;"	v
+email	employee.py	/^    def email(self):$/;"	m	class:Employee
+emp_1	sqlite_demo.py	/^emp_1 = Employee('John', 'Doe', 80000)$/;"	v
+emp_2	sqlite_demo.py	/^emp_2 = Employee('Kim', 'Doe', 50000)$/;"	v
+emps	sqlite_demo.py	/^emps = get_emps_by_name('Doe')$/;"	v
+fullname	employee.py	/^    def fullname(self):$/;"	m	class:Employee
+get_emps_by_name	sqlite_demo.py	/^def get_emps_by_name(lastname):$/;"	f
+insert_emp	sqlite_demo.py	/^def insert_emp(emp):$/;"	f
+remove_emp	sqlite_demo.py	/^def remove_emp(emp):$/;"	f
+sqlite3	sqlite_demo.py	/^import sqlite3$/;"	i
+update_pay	sqlite_demo.py	/^def update_pay(emp, pay):$/;"	f
